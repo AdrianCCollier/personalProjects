@@ -13,6 +13,8 @@ document.getElementById('pauseTimer').addEventListener('click', ()=>{
     clearInterval(int);
 });
 
+console.log('yes');
+
 document.getElementById('resetTimer').addEventListener('click', ()=>{
     clearInterval(int);
     [milliseconds,seconds,minutes,hours] = [0,0,0,0];
